@@ -1,0 +1,22 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: VarIncrement
+  Id: g=99c792c0012df138120b287e5ce6a11e
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: VarInteger
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 1
+- Name: VarTopMargin
+  Id: g=05871f716bd77de6121b638ca83f3664
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 480
+- Name: VarQuery
+  Id: g=6cf632af83f40ac9655eda00a12bd98d
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM Table1 ORDER BY Timestamp"
